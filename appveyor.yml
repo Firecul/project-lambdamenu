@@ -1,0 +1,3 @@
+version: v2.{build}
+build:
+  verbosity: minimal
