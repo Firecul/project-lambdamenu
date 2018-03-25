@@ -7,10 +7,7 @@ build:
   verbosity: minimal
 
 artifacts:
-
-- path: client\
-
-  name: LambdaMenu
+7z a myapp.zip %APPVEYOR_BUILD_FOLDER%\path\to\bin\*.dll
 
 deploy:
 
