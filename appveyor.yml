@@ -1,3 +1,4 @@
 version: v2.{build}
+image: Visual Studio 2017
 build:
   verbosity: minimal
