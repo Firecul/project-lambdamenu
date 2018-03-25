@@ -7,5 +7,5 @@ build:
   verbosity: minimal
 
 artifacts:
-7z a myapp.zip %APPVEYOR_BUILD_FOLDER%\path\to\bin\*.dll
+7z a lambdamenu.zip %APPVEYOR_BUILD_FOLDER%\.dll
 
