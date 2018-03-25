@@ -1,11 +1,8 @@
-version: v2.78913
-
+version: v2.{build}
 image: Visual Studio 2017
-
 build:
-
   verbosity: minimal
-
 artifacts:
--path 7z a lambdamenu.zip %APPVEYOR_BUILD_FOLDER%\.dll
-
+- path: '\'
+  name: LambdaMenu.dll
+deploy: off
