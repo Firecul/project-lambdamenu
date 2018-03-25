@@ -2,4 +2,9 @@ version: v2.{build}
 image: Visual Studio 2017
 build:
   verbosity: minimal
-  
+deploy:
+- provider: GitHub
+  auth_token:
+    secure: zxNVQQfFrXiMSmpux2FmD9s1AoBFqyl9bLvcwHSrHVQ=
+  artifact: lambdamenu
+  force_update: true
