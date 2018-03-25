@@ -9,18 +9,3 @@ build:
 artifacts:
 7z a myapp.zip %APPVEYOR_BUILD_FOLDER%\path\to\bin\*.dll
 
-deploy:
-
-- provider: FTP
-
-  host: zyriangaming.com
-
-  protocol: ftp
-
-  username: Julian
-
-  password:
-
-    secure: cvMkH7Q3A1k77UEwAKYX2A==
-
-  active_mode: true
