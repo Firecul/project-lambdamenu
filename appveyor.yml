@@ -1,10 +1,16 @@
-version: v2.48390
+version: v2.78913
 
 image: Visual Studio 2017
 
 build:
 
   verbosity: minimal
+
+artifacts:
+
+- path: client\
+
+  name: LambdaMenu
 
 deploy:
 
