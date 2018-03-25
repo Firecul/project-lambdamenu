@@ -2,3 +2,6 @@ version: v2.{build}
 image: Visual Studio 2017
 build:
   verbosity: minimal
+  
+ after_build:
+- 7z a LambdaMenu.zip LambdaMenu\bin\Release\LambdaMenu.asi
