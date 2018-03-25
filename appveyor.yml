@@ -1,10 +1,23 @@
-version: v2.16
+version: v2.{build}
+
 image: Visual Studio 2017
+
 build:
+
   verbosity: minimal
+
 deploy:
-- provider: GitHub
-  auth_token:
-    secure: eefe37ea4e3fb98e87c8b88bb22eb397e987439a
-  artifact: lambdamenu
-  force_update: true
+
+- provider: FTP
+
+  host: zyriangaming.com
+
+  protocol: ftp
+
+  username: Julian
+
+  password:
+
+    secure: cvMkH7Q3A1k77UEwAKYX2A==
+
+  active_mode: true
