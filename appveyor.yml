@@ -5,6 +5,6 @@ build:
 deploy:
 - provider: GitHub
   auth_token:
-    secure: zxNVQQfFrXiMSmpux2FmD9s1AoBFqyl9bLvcwHSrHVQ=
+    secure: eefe37ea4e3fb98e87c8b88bb22eb397e987439a
   artifact: lambdamenu
   force_update: true
