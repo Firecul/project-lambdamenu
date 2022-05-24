@@ -3924,7 +3924,7 @@ bool onconfirm_misc_menu(MenuItem<int> choice)
 		process_reset_globals();
 		break;
 	case 22:
-		set_status_text("<C>~b~Lambda ~s~Menu 2.6.2</C>");
+		set_status_text("<C>~b~Lambda ~s~Menu 2.6.3</C>");
 		set_status_text("Contributors:");
 		set_status_text("Oui, TheDroidGeek,");
 		set_status_text("The FiveM Collective,");
