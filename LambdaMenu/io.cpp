@@ -61,6 +61,9 @@ void get_button_state(bool *a, bool *b, bool *up, bool *down, bool *l, bool *r)
 
 bool get_key_pressed(int nVirtKey)
 {
+	if (nVirtKey == NULL) {
+		return false;
+	}
 	//return (GetKeyState(nVirtKey) & 0x8000) != 0;
 	return (GetAsyncKeyState(nVirtKey) & 0x8000) != 0;
 }
