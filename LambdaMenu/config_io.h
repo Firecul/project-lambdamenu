@@ -51,41 +51,41 @@ public:
 	int discard_recording = VK_DELETE;
 
 	//player controls
-	int player_ragdoll = NULL;
-	int ragdoll_force = NULL;
-	int pointing_action = NULL;
+	int player_ragdoll = VK_NUMPAD1;
+	int ragdoll_force = VK_NUMPAD7;
+	int pointing_action = VK_KEY_B;
 
 	//teleport controls
-	int teleport_to_marker = NULL;
+	int teleport_to_marker = VK_F4;
 
 	//vehicle controls
-	int key_veh_boost = NULL;
-	int key_veh_stop = NULL;
-	int left_signal = NULL;
-	int right_signal = NULL;
-	int interior_light = NULL;
-	int front_windows_up = NULL;
-	int front_windows_down = NULL;
-	int no_siren = NULL;
-	int drift_mode = NULL;
+	int key_veh_boost = VK_NUMPAD9;
+	int key_veh_stop = VK_NUMPAD3;
+	int left_signal = VK_LEFT;
+	int right_signal = VK_RIGHT;
+	int interior_light = VK_DECIMAL;
+	int front_windows_up = VK_UP;
+	int front_windows_down = VK_DOWN;
+	int no_siren = VK_SUBTRACT;
+	int drift_mode = VK_SHIFT;
 
 	//game controls
 	int player_names = NULL;
 	int player_names_vehicles = NULL;
-	int map_cycle = NULL;
-	int push_through_wall = NULL;
+	int map_cycle = VK_MULTIPLY;
+	int push_through_wall = VK_DIVIDE;
 
 
 	//hotkey modifier one controls
-	int hotkey_modifier_one = NULL;
-	int back_windows_up = NULL;
-	int back_windows_down = NULL;
-	int door_front_left = NULL;
-	int hood = NULL;
-	int door_front_right = NULL;
-	int door_back_left = NULL;
-	int trunk = NULL;
-	int door_back_right = NULL;
+	int hotkey_modifier_one = VK_CONTROL;
+	int back_windows_up = VK_UP;
+	int back_windows_down = VK_DOWN;
+	int door_front_left = VK_NUMPAD7;
+	int hood = VK_NUMPAD8;
+	int door_front_right = VK_NUMPAD9;
+	int door_back_left = VK_NUMPAD4;
+	int trunk = VK_NUMPAD5;
+	int door_back_right = VK_NUMPAD6;
 	
 	//hotkey modifier two controls
 	int hotkey_modifier_two = NULL;
